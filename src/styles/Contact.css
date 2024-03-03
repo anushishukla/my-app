@@ -1,0 +1,13 @@
+.contact-div{
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+   text-align: center;
+   font-size: 18px;
+}
+.contact-part{
+    padding-top: 20px;
+    margin-left: 30px;
+    padding-bottom: 5%;
+}

@@ -1,0 +1,27 @@
+.nav-ul{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+.nav-ul li{
+    margin: 20px;
+    
+}
+.nav-ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-mobile{
+    list-style: none;
+   
+}
+.nav-mobile li{
+    margin-top: 20px;
+}
+.nav-mobile li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}

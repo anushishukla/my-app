@@ -1,0 +1,43 @@
+.home-pg{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+background-position: center;
+flex-direction: column;
+background-size: color;
+}
+.home-food h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.home-food p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.home-food button{
+    background-color: black;
+    color: white;
+    padding: 20px 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+.home-food button:hover{
+    background-color: #07090a8e; 
+}
+@media only screen and (max-width:600px){
+    .home-pg {
+        justify-content:center;
+        align-items:center;
+    }
+    .home-food{
+        margin-left: 0;
+        border-radius: 10px;
+        width: 80%;
+       
+        justify-content: center;
+        align-items: center;
+    }
+}
